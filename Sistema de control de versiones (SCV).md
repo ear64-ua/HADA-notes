@@ -1,3 +1,4 @@
+#git-related 
 # Sistema de control de versiones (SCV)
 
 Usado para almacenar distintas versiones del mismo archivo.
@@ -27,4 +28,8 @@ La mejor manera de tener un control de versiones y un historial es mediante [[gi
 - **Push**: La acción que traslada los contenidos de la copia local del repositorio de un programador a la copia maestra.
 
 
-## Comandos
+Para el manejo de control de versiones se suele usar [[git]]
+
+
+Si dos versiones entran en conflicto (see [[Conflictos y flujo de trabajo]]), los mismos clientes son los que deben decidir cuál versión es válida y subirlo con un commit/push. Esto ocurre por ejemplo cuando dos personas realizan cambios en una misma zona, y el SCV central no sabe con cuál de ellas quedarse.
+

@@ -1,6 +1,7 @@
 ---
 reviewed: false
 ---
+#git-related
 
 La orden principal es ` git `
 
@@ -36,7 +37,16 @@ La orden principal es ` git `
 
 ### Ramas
 
-`git branch`: para crear una rama
+` git branch`: para crear una rama
 ` git checkout `: para cambiar de rama
 ` git merge branch-name`: para juntar dos ramas
+` git checkout -b {nombre}`: te crea una nueva rama y te apunta directamente a ella
+` git log --graph`: para sacar una vista de las ramas en forma de grafo
 
+
+### Bisect
+
+`git bisect start`: para empezar la búsqueda
+`git bisect bad`: para señalar que no es el que estamos buscando
+`git bisect good <sha-1>`: para  marcar desde donde estamos seguros que funcionaba
+`git bisect good`: para señalar que es el que estamos buscando
